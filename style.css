@@ -1,0 +1,260 @@
+/*CSS reset settings here*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#wrapper {
+    width: 1000px;
+    background-color: #141414;
+    margin: 0px auto;
+    padding: 5px 10px;
+}
+
+#header {
+    min-height: 125px;
+    background-color: #1A1A1A;
+}
+
+#phone {
+    display: inline-block;
+    padding-left: 500px;
+    padding-top: 40px;
+    vertical-align: top;
+    font-size: 18px;
+    color: #E4E4E4;
+    font-family: sans-serif;
+}
+
+#logo {
+    padding-top: 30px;
+    padding-left: 5px;
+    width: 280px;
+    display: inline-block;
+}
+
+#main_content {
+    min-height: 450px;
+    width: 1000px;
+    display: inline-block;
+    background-color: #3B3B3B;
+    margin-top: 5px;
+}
+
+.navbar {
+    min-height: 30px;
+    width: 1000px;
+    background: linear-gradient(#515151,#3B3B3B);
+    margin: 2px 0px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px 0px;
+    background: linear-gradient(#515151,#3B3B3B);
+    border: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#activebutton {
+    margin-left: 10px;
+    color: white;
+    border-right: 1.5px #444444 inset;
+}
+
+.inactivebutton {
+    color: #9DA2A1;
+    border-right: 1.5px #444444 inset;
+}
+
+.buttonarrow {
+    color: #9DA2A1;;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#contact {
+    border: none;
+}
+
+.emptybox {
+    display: inline-block;
+    min-height: 45px;
+    background: linear-gradient(#515151,#3B3B3B);
+    border-left: 1.75px #444444 outset;
+    margin-left: 410px;
+    vertical-align: top;
+}
+
+#main_pic {
+    width: 1000px;
+}
+
+.subcontent {
+    min-height: 100px;
+    background-color: #1A1A1A;
+    width: 1000px;
+    display: inline-block;
+
+}
+
+.subbox {
+    width: 220px;
+    height: 130px;
+    display: inline-block;
+    margin-left: 22px;
+    margin-top: 15px;
+    vertical-align: top;
+}
+
+.icon {
+    display: inline-block;
+    width: 50px;
+}
+
+.subhead {
+    color: #E47228;
+    padding-top: 10px;
+    font-family: sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.25em;
+    font-weight: lighter;
+}
+
+.subtext {
+    color: #E4E4E4;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-left: 55px;
+    vertical-align: top;
+}
+
+#buynow {
+    min-height: 150px;
+    width: 1000px;
+    background-image: repeating-linear-gradient(135deg, #0A0A0A, #0A0A0A 3px, #050505 5px, #050505 5px);
+    display: inline-block;
+}
+
+#buytag {
+    width: 700px;
+    min-height: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#buyheader {
+    padding-top: 40px;
+    padding-left: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#buytext {
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 10px;
+    color: #7F8F98;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+#buttonbox {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#buybutton {
+    vertical-align: top;
+    height: 50px;
+    width: 160px;
+    border-radius: 7.5px;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient(#F29856,#EF802E);
+    margin-left: 70px;
+    margin-top: 50px;
+    border: .5px black solid;
+}
+
+#portfolio {
+    min-height: 250px;
+    width: 1000px;
+    background-color: #1A1A1A;
+    display: inline-block;
+}
+
+#port_title {
+    font-size: 25px;
+    color: white;
+    font-family: serif;
+    padding-top: 30px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+#allprojects {
+    display: inline-block;
+    padding-left: 710px;
+    color: #E47228;
+    text-decoration: none;
+}
+#arrow {
+    padding-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 35px;
+}
+
+.portbox {
+    min-height: 250px;
+    width: 220px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.imgbox {
+    border: 5px solid #363636;
+    width: 210px;
+    min-height: 115px;
+    vertical-align: top;
+}
+
+.portimg {
+    width: 210px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.porthead {
+    color: #E47228;
+    padding: 10px 0px;
+    font-family: serif;
+    font-weight: lighter;
+}
+
+.porttext {
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#totop {
+    text-decoration: none;
+    color: #656464;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-left: 925px;
+    display: inline-block;
+    margin-top: 30px;
+}
